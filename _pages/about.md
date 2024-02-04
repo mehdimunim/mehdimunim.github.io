@@ -2,7 +2,7 @@
 layout: about
 title: Mehdi MUNIM
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: <a href='#'>Formateur en IA, mehdi.munim@gmail.com
 
 profile:
   align: right
