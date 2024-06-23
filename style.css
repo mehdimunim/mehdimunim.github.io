@@ -11,10 +11,14 @@ header {
 
 section {
   margin-bottom: 40px;
+  background-color: #003366; /* Bleu foncé */
+  color: white; /* Texte blanc pour le contraste */
+  padding: 20px;
+  border-radius: 5px; /* Coins arrondis (optionnel) */
 }
 
 h2 {
-  color: #333;
+  color: white; /* Titre blanc pour le contraste */
 }
 
 #social a {
