@@ -2,6 +2,8 @@ body {
   font-family: sans-serif;
   margin: 20px;
   line-height: 1.6;
+  background-color: white; /* Arrière-plan blanc */
+  color: black; /* Texte noir */
 }
 
 header {
@@ -11,14 +13,14 @@ header {
 
 section {
   margin-bottom: 40px;
-  background-color: #003366; /* Bleu foncé */
-  color: white; /* Texte blanc pour le contraste */
+  background-color: #f2f2f2; /* Gris clair pour un contraste léger */
+  color: black; /* Texte noir pour le contraste */
   padding: 20px;
   border-radius: 5px; /* Coins arrondis (optionnel) */
 }
 
 h2 {
-  color: white; /* Titre blanc pour le contraste */
+  color: black; /* Titre noir */
 }
 
 #social a {
