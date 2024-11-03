@@ -1,0 +1,15 @@
+Fetching gem metadata from https://rubygems.org/............
+Resolving dependencies...
+Fetching listen 3.9.0
+Installing bigdecimal 3.1.8 with native extensions
+Fetching kramdown-parser-gfm 1.1.0
+Installing http_parser.rb 0.8.0 with native extensions
+Installing eventmachine 1.2.7 with native extensions
+
+
+
+
+
+
+
+

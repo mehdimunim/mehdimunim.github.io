@@ -1,110 +1,37 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Mehdi Munim - Formateur en Data Science</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <header>
-    <h1>Mehdi Munim</h1>
-    <p>Formateur en Data Science</p>
-  </header>
+---
+layout: default
+title: Home
+---
 
-  <section id="about">
-    <h2>À propos de moi</h2>
-    <p>Passionné par l'IA, j'évolue dans le domaine de la data science et du développement logiciel. Je suis actuellement formateur en IA et j'ai une solide formation en mathématiques et statistiques.</p>
-  </section>
+<div class="posts">
+  {% for post in paginator.posts %}
+  <div class="post">
+    <h1 class="post-title">
+      <a href="{{ post.url | absolute_url }}">
+        {{ post.title }}
+      </a>
+    </h1>
 
-  <section id="experience">
-    <h2>Expérience Professionnelle</h2>
-    <div class="experience-item">
-      <h3>Formateur en Data Science</h3>
-      <h4>Asphere</h4>
-      <p>Novembre 2023 - Présent</p>
-      <ul>
-        <li>Dispense de formations en intelligence artificielle et data science à destination d’un public large et varié.</li>
-        <li>Animation d’une série d’ateliers pour des jeunes de 10 à 13 ans, à la Cité des Sciences et de l’Industrie, sur les thématiques de la programmation et du Machine Learning.</li>
-        <li>Intervenant en intelligence artificielle au sein de l’IA School, à destination de salariés en alternance.</li>
-        <li>Enseignant en analyse numérique à l’Université Paris-Est Créteil.</li>
-        <li>Organisation et conception des évaluations et soutenances des différents enseignements.</li>
-      </ul>
-    </div>
-    <div class="experience-item">
-      <h3>Ingénieur en Optimisation IA</h3>
-      <h4>CEA Saclay & Université Paris Cité</h4>
-      <p>Février 2022 - Juin 2023</p>
-      <ul>
-        <li>Optimisation de la prédiction de AlphaFold2 sur les protéines amyloïdes.</li>
-        <li>Automatisation de la collecte de données et encadrement d'un étudiant.</li>
-        <li>Test de modèles d'inférence, sélection de métriques et développement de scores.</li>
-        <li>Conception d'un pipeline d'analyse et communication des résultats.</li>
-      </ul>
-    </div>
-  </section>
+    <span class="post-date">{{ post.date | date_to_string }}</span>
 
-  <section id="projects">
-    <h2>Projets</h2>
-    <div class="project-item">
-      <h3>Développeur Logiciel (Stage)</h3>
-      <h4>Synchrotron SOLEIL, Saint Aubin</h4>
-      <p>Juin 2021 - Septembre 2021</p>
-      <ul>
-        <li>Développement d'un logiciel d'acquisition et traitement de données pour le SRCD (Python).</li>
-        <li>Automatisation des acquisitions caméra UV.</li>
-        <li>Traitement des images de spectroscopie, sélection des ROI, feature extraction, etc.</li>
-      </ul>
-    </div>
-    <div class="project-item">
-      <h3>Conception d'une Base de Données (Projet)</h3>
-      <h4>EIDD</h4>
-      <p>Mai 2021 - Juin 2021</p>
-      <ul>
-        <li>Création d'une base de données pour le e-commerce de livres.</li>
-        <li>Modélisation avec un diagramme entité-relation.</li>
-        <li>Implémentation avec PostgreSQL et requêtes SQL optimisées.</li>
-      </ul>
-    </div>
-    <div class="project-item">
-      <h3>Développeur Back-end (Projet)</h3>
-      <h4>EIDD</h4>
-      <p>Mars 2021 - Mai 2021</p>
-      <ul>
-        <li>Réalisation d'une interface pour le covoiturage en Java.</li>
-        <li>Élaboration d'une proposition technique et gestion des données.</li>
-        <li>Implémentation des DAO et requêtes SQL optimisées.</li>
-      </ul>
-    </div>
-  </section>
+    {{ post.content }}
+  </div>
+  {% endfor %}
+</div>
 
-  <section id="education">
-    <h2>Formation</h2>
-    <div class="education-item">
-      <h3>Ingénieur Bioinformatique</h3>
-      <h4>École d'Ingénieur Denis Diderot (EIDD)</h4>
-      <p>2019 - 2022</p>
-    </div>
-    <div class="education-item">
-      <h3>MPSI / MP*</h3>
-      <h4>Fénélon Sainte-Marie</h4>
-      <p>2017 - 2019</p>
-    </div>
-  </section>
-
-  <section id="skills">
-    <h2>Compétences</h2>
-    <ul>
-      <li>Langages : Python (NumPy, Pandas, etc.), C, Java, R, SQL, Bash, HTML, CSS, Javascript</li>
-      <li>Logiciels : Jupyter, Git, GIMP</li>
-      <li>Compétences : Machine Learning, Data Mining, Bioinformatique, Analyse de données, etc.</li>
-    </ul>
-  </section>
-
-  <footer>
-    <p>Contactez-moi : mehdi.munim@gmail.com</p>
-    <div id="social">
-      <a href="https://www.linkedin.com/in/mehdimunim/" target="_blank">LinkedIn</a>
-      <a href="https://github.com/MehdiMunim" target="_blank">GitHub</a>
-    </div>
-  </footer>
-</body>
-</html>
+<div class="pagination">
+  {% if paginator.next_page %}
+    <a class="pagination-item older" href="{{ paginator.next_page_path | absolute_url }}">Older</a>
+  {% else %}
+    <span class="pagination-item older">Older</span>
+  {% endif %}
+  {% if paginator.previous_page %}
+    {% if paginator.page == 2 %}
+      <a class="pagination-item newer" href="{{ '/' | absolute_url }}">Newer</a>
+    {% else %}
+      <a class="pagination-item newer" href="{{ paginator.previous_page_path | absolute_url }}">Newer</a>
+    {% endif %}
+  {% else %}
+    <span class="pagination-item newer">Newer</span>
+  {% endif %}
+</div>
