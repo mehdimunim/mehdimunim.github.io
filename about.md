@@ -4,30 +4,25 @@ title: Mon CV
 permalink: /about/
 ---
 
-## Objectifs professionnels
+## Introduction
 
-Fort d'une expérience réussie dans l'ingénierie en IA et la transmission de connaissances, je souhaite désormais m'investir pleinement dans le domaine de la pédagogie. Mon objectif est de mettre mes compétences au service de la formation et de l'accompagnement des apprenants, en contribuant à la création de parcours d'apprentissage innovants et stimulants.
+2 expériences significatives dans mon parcours :
 
-Je suis particulièrement intéressé par les métiers d'**ingénieur pédagogique**, d'**ingénieur de formation**, de **formateur** et de **concepteur de formation**, notamment dans le domaine de l'intelligence artificielle. Je souhaite concevoir des dispositifs de formation engageants, développer des contenus pédagogiques de qualité et accompagner les apprenants dans leur développement de compétences.
+- Expérience à Asphere. Dispense de formation et **conception de contenu** pour l'EPITA, l'IA School, la Cité des Sciences, Paris School of Business (PSB) ainsi que l'UPEC.
 
-Mon ambition est de participer à la démocratisation de l'IA en rendant ses concepts accessibles à tous, et de former les futurs experts qui construiront un monde meilleur grâce à l'intelligence artificielle.
+- Expérience au CEA/UPcité sur l'optimisation d'**AlphaFold 2** (Nobel Chimie 2024) au cas amyloïde.
 
-**Mots clés visés :**
+**Mes objectifs ?**
 
-- Ingénieur pédagogique
-- Ingénieur de formation
-- Formateur
-- Concepteur de formation
-- Intelligence artificielle
-- Pédagogie
-- Formation
-- Accompagnement
-- Innovation
-- Développement de compétences
+Les rôles suivants entre le cadre de mes compétences :
 
-## Résumé
+- **ingénieur pédagogique**
+- **ingénieur de formation**
+- **formateur**
+- **concepteur de formation**
+- **ingénieur IA**
 
-Passionné par l’IA sous toutes ses formes, Deep Blue, AlphaFold, ou Gemini, je souhaite évoluer au sein d’une entreprise ambitieuse pour solutionner des challenges innovants. J’ai un solide bagage théorique (mathématiques, statistiques) renforcé par mes expériences en data science et ingénierie logiciellePassionné par l’IA sous toutes ses formes, Deep Blue, AlphaFold, ou Gemini, je souhaite évoluer au sein d’une entreprise ambitieuse pour solutionner des challenges innovants. J’ai un solide bagage théorique (mathématiques, statistiques) renforcé par mes expériences en data science et ingénierie logicielle
+Je suis en particulier intéressé par l'IA et ses diverses applications, notamment en médecine et biochimie (AlphaFold). J'ai un intérêt également pour l'aspect transmission et pédagogie.
 
 ## Expérience
 
@@ -81,16 +76,11 @@ Passionné par l’IA sous toutes ses formes, Deep Blue, AlphaFold, ou Gemini, j
 
 ## Compétences
 
-**Techniques**
-
 - **Langages de programmation :** Python, C++, Java, JavaScript, HTML, CSS
 - **IA / Machine Learning :** Deep Learning, Machine Learning, Computer Vision, NLP, Optimisation de modèles, Analyse d'images
 - **Outils et technologies :** Scikit-learn, TensorFlow, PyTorch, OpenCV, Git, Linux, Docker, SQL, MongoDB
 - **Mathématiques et statistiques :** Algèbre linéaire, Probabilités, Statistiques, Analyse numérique, Optimisation
-
-**Transversales**
-
 - **Pédagogie :** Conception de formations, Animation de formations, Vulgarisation scientifique
-- **Communication :** Communication orale et écrite, Présentation de résultats, Rédaction de rapports
+- **Communication :** Reporting, Présentation de résultats, Rédaction de rapports
 - **Travail d'équipe :** Collaboration, Esprit d'équipe, Gestion de projet
 - **Autonomie et rigueur :** Organisation, Gestion du temps, Résolution de problèmes
