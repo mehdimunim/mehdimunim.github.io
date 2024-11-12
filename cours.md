@@ -46,13 +46,13 @@ permalink: /cours/
 ### Architecture informatique
 
 - **Description :** Fondements de l'architecture des ordinateurs, des systèmes d'exploitation et des réseaux.
-- **Contenu :** Organisation des systèmes informatiques, types de processeurs et de mémoires, principes de fonctionnement des réseaux...
+- **Contenu :** Organisation des systèmes informatiques, types de processeurs et de mémoires, architectures multi-processeurs, cloud computing...
 - **Exemples de contenu :** [Slides d'introduction](https://docs.google.com/presentation/d/13ApgdurbxEa6D-Tr9Tpfb8pdnKfyoTnHt6YWMpYPsDU/edit?usp=drive_link)
 
 ### Data Architecture
 
 - **Description :** Concepts et les techniques de l'architecture des données, qui vise à organiser et gérer les données d'une organisation.
-- **Contenu :** Modélisation de données, bases de données relationnelles et NoSQL, entrepôts de données, data lakes...
+- **Contenu :** Modélisation de données, bases de données relationnelles, schéma en étoile, snowflake, entrepôts de données, data lakes...
 - **Exemples de travaux :** [Slides de cours](https://docs.google.com/presentation/d/1KuWnbAGNMnNNT_sL2CmBTZBZoc4oQA4H0b0A7RnXONY/edit?usp=drive_link)
 
 ### Modèles de croissance
@@ -64,7 +64,7 @@ permalink: /cours/
 ### Optimisation non différentiable
 
 - **Description :** Techniques d'optimisation pour les fonctions non différentiables, qui sont souvent rencontrées en Machine Learning et en IA.
-- **Contenu :** Méthodes de descente de gradient, algorithmes génétiques, optimisation par essaims particulaires...
+- **Contenu :** Méthodes de descente du sous-gradient, méthodes proximales, méthodes des plans de faisceaux...
 - **Exemples de travaux :** [Slides de cours](https://docs.google.com/presentation/d/1WTes36bfitOjas6k0SRmRShg0DGLco_Sob1pu29qUgg/edit?usp=drive_link)
 
 ## Cours Cité des Sciences
@@ -84,7 +84,7 @@ permalink: /cours/
 ### Introduction à ChatGPT
 
 - **Description :** Cet atelier présente les bases de l'utilisation de ChatGPT, un modèle de langage puissant développé par OpenAI.
-- **Contenu :** Génération de texte, traduction automatique, rédaction assistée par ordinateur...
+- **Contenu :** Génération de texte, génération d'image, assistance IA...
 - **Exemple :** [Introduction à Chatgpt](https://drive.google.com/file/d/1LWyuJbUpcdSUqokKwMrPiRgqkcQ7Bt0I/view?usp=drive_link)
 
 ## Cours UPEC
